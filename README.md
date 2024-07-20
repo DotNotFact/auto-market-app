@@ -1,27 +1,68 @@
-# AutoMarketApp
+# AutoMarket
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+## Описание
 
-## Development server
+Это мой первый проект на Angular. В данном проекте реализовано управление производителями и моделями автомобилей. В приложении можно добавлять, редактировать и удалять производителей и их модели.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Стек технологий
 
-## Code scaffolding
+- **Angular**: Фреймворк для создания одностраничных приложений.
+- **Yarn**: Пакетный менеджер для управления зависимостями.
+- **Node.js**: Среда выполнения JavaScript для серверной части.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Установка
 
-## Build
+### Предварительные требования
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Node.js**: Версия 22.0.0 или выше
+- **Yarn**: Установите Yarn глобально, если он еще не установлен
 
-## Running unit tests
+  ```sh
+  npm install -g yarn
+  ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Шаги для установки
 
-## Running end-to-end tests
+1. Клонируйте репозиторий:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  ```sh
+  git clone https://github.com/ваш-username/auto-market-app.git
+  ```
 
-## Further help
+2. Перейдите в директорию проекта:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  ```sh
+  cd auto-market-app
+  ```
+
+3. Установите зависимости:
+
+  ```sh
+  yarn / yarn install
+  ```
+
+## Запуск проекта
+
+### Разработка
+
+Для запуска проекта в режиме разработки выполните:
+
+  ```sh
+  ng serve
+  ```
+
+### Сборка
+
+Для сборки проекта выполните:
+
+  ```sh
+  yarn build
+  ```
+
+### Тестирование
+
+Для запуска тестов выполните:
+
+  ```sh
+  yarn test
+  ```
